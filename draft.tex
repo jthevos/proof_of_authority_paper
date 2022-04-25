@@ -1,0 +1,181 @@
+\pdfminorversion=4 
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+
+\usepackage{comment}
+\newcommand{\cSetup}{\textit{Setup}}
+\newcommand{\KeyGenServer}{\textit{KeyGenServer}}
+\newcommand{\KeyGenDoctor}{\textit{KeyGenDoctor}}
+\newcommand{\KeyGenPatient}{\textit{KeyGenPatient}}
+\newcommand{\CreateIndex}{\textit{CreateIndex}}
+\newcommand{\EncryptDocuments}{\textit{EncryptDocuments}}
+\newcommand{\CreateTrapdoor}{\textit{CreateTrapdoor}}
+\newcommand{\CheckAccessPolicy}{\textit{CheckAccessPolicy}}
+\newcommand{\Match}{\textit{Match}}
+
+
+\usepackage[ruled,linesnumbered]{algorithm2e}
+\usepackage{soul,color}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{subfig}
+\usepackage[demo]{graphicx}
+
+
+\usepackage{subfig}
+
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{lipsum,graphicx,multicol}
+\usepackage[shortlabels]{enumitem}
+\usepackage{color}
+
+\usepackage[ruled,linesnumbered]{algorithm2e}
+\definecolor{seagreen}{rgb}{0.18, 0.55, 0.24}
+\SetAlFnt{\small\color{black}\tt}
+\LinesNumbered
+\renewcommand{\DataSty}[1]{{\color{yellow}\texttt{#1}}}
+\renewcommand{\KwSty}[1]{{\color{blue}\textbf{#1}}}
+\renewcommand{\ProgSty}[1]{{\color{black}\texttt{#1}}}
+\renewcommand{\FuncSty}[1]{{\color{black}\texttt{#1}}}
+\renewcommand{\CommentSty}[1]{{\color{seagreen}\texttt{#1}}}
+\renewcommand{\ArgSty}[1]{{\color{black}\texttt{#1}}}
+\renewcommand{\FuncArgSty}[1]{{\color{black}\texttt{#1}}}
+\renewcommand{\ProcArgSty}[1]{{\color{black}\texttt{#1}}}
+\renewcommand{\ProcNameSty}[1]{{\color{black}\texttt{#1}}}
+\renewcommand{\NlSty}[1]{{\color{black}\texttt{#1}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\columnsep}{0.2 in}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\newcounter{defcounter}
+\setcounter{defcounter}{0}
+\usepackage{caption}
+\usepackage[shortlabels]{enumitem}
+\usepackage{cite}
+\usepackage[ruled]{algorithm2e}
+\mathchardef\period=\mathcode`.
+\DeclareMathSymbol{.}{\mathord}{letters}{"3B}
+\usepackage{tikz}
+\tikzstyle{io} = [fill=black,inner sep=2pt,circle]
+\newcommand{\hilight}[1]{\colorbox{yellow}{#1}}
+
+\makeatletter
+\newcommand*\bigcdot{\mathpalette\bigcdot@{.5}}
+\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+\makeatother
+
+
+
+\makeatletter
+
+
+\newtheorem{theorem}{Theorem}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+
+
+\title{Proof of Authority Consensus in SmartGrid Applications}
+\author{
+ \IEEEauthorblockN{John-Anthony G. Thevos~\IEEEauthorrefmark{1}, Mohamed~Baza~PhD.\IEEEauthorrefmark{1}}
+  \IEEEauthorblockA{
+  \IEEEauthorrefmark{1}Department of Computer Science, College of Charleston, Charleston, SC, USA\\
+  }}
+
+		
+
+
+% \author{
+% \IEEEauthorblockN{Sherif Abdelfattah}
+% \IEEEauthorblockA{\textit{Department of Electrical and Computer Engineering} \\
+% \textit{Tennessee Tech University}\\
+% Cookeville, TN, USA \\
+% sabdelfat42@tntech.edu}
+% \and
+% \IEEEauthorblockN{6\textsuperscript{th} Given Name Surname}
+% \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+% \textit{name of organization (of Aff.)}\\
+% City, Country \\
+% email address or ORCID}
+% }
+
+\maketitle
+
+\IEEEoverridecommandlockouts
+\IEEEpubid{\makebox[\columnwidth]{978-0-7381-1316-6/21/\$31.00~\copyright2021 IEEE \hfill} \hspace{\columnsep}\makebox[\columnwidth]{ }}
+\maketitle
+\IEEEpubidadjcol
+
+\begin{abstract}
+
+Existing attempts at deploying a blockchain based application in the energy sector have not proven to meet the requirements
+of an environment like the energy grid. Specifically, public blockchain applications running on Proof of Work 
+and Proof of Stake consensus mechanisms tend to suffer from low 
+throughput speeds and cannot keep up with the near real time pace of the grid. 
+These limitations make them unsuitable for most applications at scale. This 
+is particularly true in a SmartGrid environment where there is demand for high throughput volume but also requires 
+accuracy and querability.
+
+Proof of Authority (PoA) consensus mechanisms depoloyed on private or consortium blockchains show promise in
+bringing the throughput of blockchain applications to an acceptable level. 
+
+This paper explores this subset of 
+blockchain applications, and attempts to... wtf am I doing. 
+
+
+\end{abstract}
+
+\begin{IEEEkeywords}
+SmartGrid, Blockchain, Smart contract, Proof of Authority, consortium blockchain, private blockchain 
+    \end{IEEEkeywords}
+
+
+
+
+
+\section{Introduction}
+\label{introduction}
+
+\section{Motivation}
+\label{motivation}
+
+\section{Proof of Authority}
+\label{proof_of_authority}
+
+\section{Is this just a bureaucracy?}
+\label{bureacracy}
+
+\section{Future Research}
+\label{future_research}
+
+\section{Conclusion}
+\label{conclusion}
+
+  
+
+\bibliographystyle{IEEEtran}
+\bibliography{references} 
+
+
+
+
+
+\end{document}
